@@ -1,0 +1,781 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:23:07
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.11                                |7.4.2
+OS__________________: Darwin                                |WINNT
+CREATED_____________: 2022-01-19 09:02:47
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.3
+DB__________________: 10.4.14
+DB TABLES___________: 68
+DB ROWS_____________: 43,009
+DB FILE SIZE________: 24.94MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.2
+DOC ROOT____________: "E:/xampp/htdocs/wp_docpress"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://dev.docpress/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xampp/htdocs/wp_docpress/20210624_docspressthimpresscom_[HASH]_20220119090247_archive.zip"
+SIZE________________: 548.57MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xampp/htdocs/wp_docpress/20210624_docspressthimpresscom_[HASH]_20220119090247_archive.zip"
+SIZE________________: 548.57MBFile timestamp set to Current: 2022-01-19 09:23:27
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:23:27 - RUNTIME: 20.2185 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) [CODE:2|FILE:E:\xampp\htdocs\wp_docpress\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'admin'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:25:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.4.14
+FILE SIZE:	dup-database__[HASH].sql (14.67MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/xampp/htdocs/wp_docpress/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.4.11] is less than the build version [10.4.14].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	42922
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_documentor: (34)
+wp_documentor_feedback: (8)
+wp_documentor_sections: (1090)
+wp_duplicator_packages: (0)
+wp_learnpress_order_itemmeta: (0)
+wp_learnpress_order_items: (0)
+wp_learnpress_question_answers: (0)
+wp_learnpress_quiz_questions: (0)
+wp_learnpress_review_logs: (0)
+wp_learnpress_section_items: (0)
+wp_learnpress_sections: (0)
+wp_learnpress_sessions: (0)
+wp_learnpress_user_itemmeta: (0)
+wp_learnpress_user_items: (0)
+wp_links: (0)
+wp_options: (454)
+wp_postmeta: (13642)
+wp_posts: (4964)
+wp_revslider_css: (109)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_sliders: (0)
+wp_revslider_slides: (0)
+wp_revslider_static_slides: (0)
+wp_term_relationships: (351)
+wp_term_taxonomy: (201)
+wp_termmeta: (0)
+wp_terms: (201)
+wp_usermeta: (299)
+wp_users: (12)
+wp_wfblockediplog: (942)
+wp_wfblocks7: (0)
+wp_wfconfig: (279)
+wp_wfcrawlers: (53)
+wp_wffilechanges: (0)
+wp_wffilemods: (7280)
+wp_wfhits: (1919)
+wp_wfhoover: (0)
+wp_wfissues: (4)
+wp_wfknownfilelist: (7280)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (5)
+wp_wflogins: (2000)
+wp_wfnotifications: (14)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (16)
+wp_wfsnipcache: (0)
+wp_wfstatus: (947)
+wp_wftrafficrates: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (0)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpdatacharts: (0)
+wp_wpdatatables: (21)
+wp_wpdatatables_columns: (0)
+wp_wpdatatables_rows: (694)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 4.8565 sec.
+STEP-2 COMPLETE @ 09:25:07 - RUNTIME: 4.8906 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:25:23
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "docspress.thimpress.com"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress"
+path_new______________: "E:/xampp/htdocs/wp_docpress"
+siteurl_______________: "http://dev.docpress"
+url_old_______________: "http://localhost/thimpress/docspress"
+url_new_______________: "http://dev.docpress"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_documentor"___________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_documentor_feedback"__________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_documentor_sections"__________________________[ROWS:  1090][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_order_itemmeta"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_order_items"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_question_answers"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_quiz_questions"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_review_logs"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_section_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_sections"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_sessions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_user_itemmeta"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_user_items"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   454][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 13642][PG:   4][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  4964][PG:   2][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   351][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   299][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:   942][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   279][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:    53][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:  7280][PG:   3][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:  1919][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  7280][PG:   3][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:  2000][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   947][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatacharts"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatatables"_________________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+
+EVALUATE TABLE: "wp_wpdatatables_columns"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpdatatables_rows"____________________________[ROWS:   694][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/XAMPP/xamppfiles/htdocs/thimpress/docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  2:"\/Applications\/XAMPP\/xamppfiles\/htdocs\/thimpress\/docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  3:"%2FApplications%2FXAMPP%2Fxamppfiles%2Fhtdocs%2Fthimpress%2Fdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  4:"\Applications\XAMPP\xamppfiles\htdocs\thimpress\docspress" => "E:/xampp/htdocs/wp_docpress"
+	SEARCH  5:"\\Applications\\XAMPP\\xamppfiles\\htdocs\\thimpress\\docspress" => "E:\/xampp\/htdocs\/wp_docpress"
+	SEARCH  6:"%5CApplications%5CXAMPP%5Cxamppfiles%5Chtdocs%5Cthimpress%5Cdocspress" => "E%3A%2Fxampp%2Fhtdocs%2Fwp_docpress"
+	SEARCH  7:"//localhost/thimpress/docspress" =================> "//dev.docpress"
+	SEARCH  8:"\/\/localhost\/thimpress\/docspress" =============> "\/\/dev.docpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fthimpress%2Fdocspress" =========> "%2F%2Fdev.docpress"
+	SEARCH 10:"https://dev.docpress" ============================> "http://dev.docpress"
+	SEARCH 11:"https:\/\/dev.docpress" ==========================> "http:\/\/dev.docpress"
+	SEARCH 12:"https%3A%2F%2Fdev.docpress" ======================> "http%3A%2F%2Fdev.docpress"
+--------------------------------------
+SCANNED:	Tables:68 	|	 Rows:42820 	|	 Cells:324799 
+UPDATED:	Tables:9 	|	 Rows:7004 	|	 Cells:8493 
+ERRORS:		0 
+RUNTIME:	1.671000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:25:25 - RUNTIME: 1.7695 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

@@ -1,0 +1,129 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-02 20:59:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: inc/admin-settings.php:53
+msgid "Please select which editor your are using. <strong>Default:</strong> Classic Editor"
+msgstr "Bitte wählen, welchen Editor Sie benutzen. <strong>Standard:</strong> Klassischer Editor"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "Gutenberg Editor"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "Klassischer Editor"
+
+#: inc/admin-settings.php:47
+msgid "Choose Editor"
+msgstr "Editor wählen"
+
+#: duplicatepage.php:302
+msgid "Duplicate This as "
+msgstr "Dies duplizieren als "
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "Privat"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "Entwurf"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php:85
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: duplicatepage.php:72
+msgid "Donate"
+msgstr "Spenden"
+
+#: duplicatepage.php:71
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "Suffix des duplizierten Beitrags"
+
+#: duplicatepage.php:211 duplicatepage.php:227
+msgid "Duplicate This"
+msgstr "Duplizieren"
+
+#: inc/admin-settings.php:91
+msgid "Contribute some donation, to make plugin more stable. You can pay amount of your choice."
+msgstr "Spenden Sie etwas, um das Plugin stabiler zu machen. Sie können den Betrag Ihrer Wahl spenden."
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "Fügen Sie eine Nachsilbe für Duplikate oder Klone als Kopie, Klon usw. hinzu."
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "Zur Bearbeitungsansicht des Duplikats"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "Zur Liste aller Beiträge"
+
+#: inc/admin-settings.php:65
+msgid "Please select any post status you want to assign for duplicate post. <strong>Default:</strong> Draft."
+msgstr "Bitte einen Beitragsstatus auswählen, den Sie dem duplizierten Beitrag zuordnen wollen. <strong>Standard:</strong> Entwurf."
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "Status des duplizierten Beitrags"
+
+#: inc/admin-settings.php:35
+msgid ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+msgstr ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+" <p><strong>Einstellungen nicht gespeichert.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Ignoriere diese Nachricht.</span></button></div>"
+
+#: inc/admin-settings.php:32
+msgid ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+msgstr ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Einstellungen gespeichert.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Ignoriere diese Nachricht.</span></button></div>"
+
+#: inc/admin-settings.php:16
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong>Speichert. Bitte warten...</strong>"
+
+#: inc/admin-settings.php:11
+msgid "Buy PRO"
+msgstr "Kaufe PRO"
+
+#: inc/admin-settings.php:11
+msgid "Duplicate Page Settings "
+msgstr "Duplicate-Page-Einstellungen"
+
+#: inc/admin-settings.php:74
+msgid "Please select any post redirection, redirect you to selected after click on duplicate this link. <strong>Default:</strong> To current list."
+msgstr "Bitte wählen Sie, wohin Sie nach einem Klick auf Duplizieren umgeleitet werden wollen. <strong>Standard:</strong> Zur aktuellen Liste."
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "Umleitung nach Klick auf <strong>Duplizieren</strong>"

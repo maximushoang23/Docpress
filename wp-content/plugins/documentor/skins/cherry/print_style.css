@@ -1,0 +1,24 @@
+html, body { height: auto; }
+.documentor-cherry .doc-menu {
+	width: 0px;
+}
+.documentor-cherry .doc-sec-container {
+	width: 100% !important;
+}
+.documentor-cherry .documentor-section {
+	visibility: visible !important;
+	width: 100% !important;
+}
+.documentor-cherry .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-cherry .doc-sec-count {
+	margin-right: 15px;
+}
+.documentor-cherry .doc-isrc {
+	display: block;
+}
+#footer {
+	display: none;
+}
+

@@ -1,0 +1,91 @@
+/*
+ * Style responsive for theme
+ */
+
+body {
+   &.responsive {
+    @media (max-width: 768px) {
+      .visible-xs, .visible-sm, .visible-md, .visible-lg {
+        display: block !important;
+      }
+      .stack-center .width-logo,
+      .header-v3 .navigation-top{
+        margin: 0 !important;
+        >.tm-table {
+          display: block;
+        }
+        .menu-mobile-effect {
+          margin-top: 0;
+        }
+      }
+      header#masthead {
+        .width-logo {
+          width: 100%;
+          text-align: center;
+        }
+        .logo {
+          display: none;
+        }
+        .mobile-logo {
+          display: inline-block;
+        }
+      }
+
+      header {
+        &.site-header.header-overlay {
+          &.affix {
+            position: fixed;
+          }
+        }
+
+        &.site-header {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
+        .width-navigation {
+          display: none;
+        }
+
+        .width-logo {
+          float: left;
+        }
+      }
+      .main-top {
+        .content .title {
+          font-size: 30px;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      .thim-social-share li {
+        &:nth-last-child(1), &:nth-last-child(2) {
+          display: block;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  &.disable-responsive {
+
+    // Reset the container
+    .container {
+      width: 1170px;
+      max-width: none !important;
+    }
+
+    .wrapper-container {
+      min-width: 1170px !important;
+      overflow: visible !important;
+    }
+
+    // Css
+    .mobile-menu-container,
+    .menu-mobile-effect{
+      display: none !important;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+/*
+ * Include common style for theme */
+
+// Site content
+.site-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+// Slider style
+.flexslider {
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+  position: relative;
+  .flex-direction-nav {
+    margin: 0;
+    a {
+      position: absolute;
+      z-index: 9;
+      top: 50%;
+      cursor: pointer;
+      width: 31px;
+      margin: 0;
+      height: 32px;
+      background-color: #fff;
+      text-align: center;
+      overflow: hidden;
+      margin-top: -16px;
+      @include transition(all .3s ease-in-out);
+      &:hover {
+        &:before {
+          color: $white;
+        }
+      }
+    }
+    .flex-prev {
+      left: -36px;
+      opacity: 0;
+      &:before {
+        content: "\f104";
+        font-family: "FontAwesome";
+        font-size: 22px;
+        line-height: 31px;
+        display: inline-block;
+      }
+    }
+    .flex-next {
+      right: -36px;
+      opacity: 0;
+      &:before {
+        content: "\f105";
+        font-family: "FontAwesome";
+        font-size: 22px;
+        line-height: 31px;
+        display: inline-block;
+      }
+    }
+  }
+
+  &:hover {
+    .flex-direction-nav {
+      .flex-prev {
+        opacity: 0.8;
+        left: 5px;
+      }
+      .flex-next {
+        opacity: 0.8;
+        right: 5px;
+      }
+    }
+  }
+}
+
+// 404 page
+.error-404 .search-form {
+  max-width: 50%;
+}
+

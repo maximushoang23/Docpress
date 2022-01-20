@@ -1,0 +1,39 @@
+html, body { 
+	height: auto;   
+	padding: 0; 
+	margin: 0; 
+}
+
+body div:not(.documentor-cherry) { 
+	visibility: hidden;
+	width: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+.documentor-cherry, .documentor-cherry *{
+	display: block;
+	visibility: visible;
+}
+a { 
+	display: none !important; 
+}
+.documentor-cherry a {
+	display: block !important; 
+}
+.documentor-cherry .doc-menu, .documentor-cherry .dcumentor-topicons, .documentor-cherry .documentor-social, .documentor-cherry .doc-postedit-link, .documentor-cherry .doc-noprint, .documentor-cherry .wp-video, .documentor-cherry video {
+	display: none !important;
+}
+.documentor-cherry .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-cherry .doc-menu {
+	width: 0px;
+}
+.documentor-cherry .doc-sec-container {
+	width: 100% !important;
+}
+footer {
+	display: none;
+}
+
+ 

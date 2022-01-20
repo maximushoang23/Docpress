@@ -1,0 +1,31 @@
+<?php
+	global $default_settings_cherry;
+	$default_settings_cherry=array(
+		'indexformat' => 0,
+		'scrolling' => 1,
+		'navmenu_default' => 0,
+		'navt_font' =>'regular',
+		'navmenu_tfont' => 'Arial,Helvetica,sans-serif',
+		'navmenu_color' => '#555555',
+		'navmenu_fsize' => '15',
+		'actnavbg_default' => 1,
+		'section_element' => '2',
+		'sectitle_default' => 0,
+		'sect_font' => 'google',
+		'sectitle_color' => '#333333',
+		'sectitle_fontg' => 'Open+Sans',
+		'sectitle_fontgw' => '600',
+		'sectitle_fontgsubset' => '',
+		'sectitle_fsize' => '22',
+		'seccont_default' => 0,
+		'seccont_color' => '#555555',
+		'secc_font' => 'regular',
+		'seccont_font' => 'Arial,Helvetica,sans-serif',
+		'seccont_fsize' => '16',
+		'related_doc' => 0,
+		'scroll_color' => '#F45349',
+		'iconscroll' => '1',
+		'togglemenu' => '0',
+		'guidetitle' => '0',
+	);
+?>

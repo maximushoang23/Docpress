@@ -1,0 +1,27 @@
+html, body { height: auto; }
+.documentor-bar .doc-menu {
+	width: 0px;
+}
+.documentor-bar .doc-sec-container {
+	width: 100% !important;
+}
+.documentor-bar .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-bar .doc-sec-count {
+	margin-right: 15px;
+}
+.documentor-bar .doc-isrc {
+	display: block;
+}
+.documentor-bar .documentor-help .doc-mdate {
+	text-decoration: none;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-style: italic;
+	color: #a0a0a0;
+	font-size: 12px;
+}
+#footer {
+	display: none;
+}
+ 

@@ -1,0 +1,104 @@
+#customize-info .accordion-section-title {
+	text-align: center;
+}
+
+#customize-theme-controls .customize-control-kirki input {
+	font-size: 14px;
+}
+
+.thim-customize-accordion {
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.customize-control-kirki-accordion {
+	margin-bottom: 0;
+}
+
+.customize-control-kirki.init-hide {
+	display: none !important;
+}
+
+button.accordion {
+	background-color: #fff;
+	color: #555555;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 14px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	display: block;
+	font-weight: 500;
+	line-height: 21px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button.accordion.active {
+	margin-bottom: 20px;
+}
+
+button.accordion.active, button.accordion:hover {
+	background-color: #f5f5f5;
+}
+
+button.accordion:after {
+	content: '\f347';
+	color: #777;
+	float: right;
+	margin-left: 5px;
+	font-family: dashicons;
+}
+
+button.accordion.active:after {
+	content: "\f343";
+}
+
+ul li.customize-control a.tooltip.hint--left {
+	right: 0;
+}
+
+a.kirki-reset-section {
+	top: 36px;
+	right: 23px;
+}
+
+.customize-control-kirki-switch .switch label span{
+	font-size: 0 !important;
+}
+
+.customize-control-kirki-switch .switch label span.switch-on:before {
+	font-family: 'icomoon' !important;
+	content: "\ec34";
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.customize-control-kirki-switch .switch label span.switch-off:before {
+	font-family: 'icomoon' !important;
+	content: "\ec35";
+	font-size: 14px;
+	padding-left: 1px;
+}
+
+.customize-control-kirki-switch .switch label {
+	background: #ccc;
+}
+
+.customize-control-kirki-switch .switch label:after {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.customize-control-kirki-switch .switch label {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+label.switch-label:after {
+	width: calc(2ch + 14px) !important;
+}

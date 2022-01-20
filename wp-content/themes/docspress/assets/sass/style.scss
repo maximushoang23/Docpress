@@ -1,0 +1,51 @@
+/*!
+Theme Name: DocsPress
+Theme URI: http://docspress.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: Theme Description.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: thim-docspress
+Domain Path: /languages/
+*/
+
+// Import variables
+@import "variables";
+// Import style Bootstrap
+@import "bootstrap/bootstrap";
+// Import style Bootstrap
+@import "awesome/font-awesome";
+// Import Mixins
+@import "mixins/extend";
+@import "mixins/mixins-master";
+// Import reset style
+@import "reset-style/reset-style";
+// Import style header
+@import "header/topbar";
+@import "header/header";
+@import "header/main-menu";
+@import "header/mega-menu";
+// Import Breadcrumb
+@import "breadcrumb/breadcrumb";
+// Import style blog
+@import "sidebar/sidebar";
+@import "blog/blog-archive";
+@import "blog/blog-single";
+// Import style footer
+@import "footer/footer";
+// Import responsive
+@import "responsive/responsive";
+// Import features style
+@import "features/preloading/spinkit";
+@import "features/back-to-top/back-to-top";
+// Import dropkickjs style
+@import "elements/dropkick";
+// Import button style
+@import "buttons/buttons";
+// Import Common style
+@import "general-style/general-style";
+
+@import "docspress/docspress";

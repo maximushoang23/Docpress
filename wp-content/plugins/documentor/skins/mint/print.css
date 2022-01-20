@@ -1,0 +1,39 @@
+html, body { 
+	height: auto;   
+	padding: 0; 
+	margin: 0; 
+}
+
+body div:not(.documentor-mint) { 
+	visibility: hidden;
+	width: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+.documentor-mint, .documentor-mint *{
+	display: block;
+	visibility: visible;
+}
+a { 
+	display: none !important; 
+}
+.documentor-mint a {
+	display: block !important; 
+}
+.documentor-mint .doc-menu, .documentor-mint .dcumentor-topicons, .documentor-mint .documentor-social, .documentor-mint .doc-postedit-link, .documentor-mint .doc-noprint, .documentor-mint .wp-video, .documentor-mint video {
+	display: none !important;
+}
+.documentor-mint .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-mint .doc-menu {
+	width: 0px;
+}
+.documentor-mint .doc-sec-container {
+	width: 100% !important;
+}
+footer {
+	display: none;
+}
+
+ 

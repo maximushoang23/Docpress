@@ -1,0 +1,39 @@
+html, body { 
+	height: auto;   
+	padding: 0; 
+	margin: 0; 
+}
+
+body div:not(.documentor-bar) { 
+	visibility: hidden;
+	width: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+.documentor-bar, .documentor-bar *{
+	display: block;
+	visibility: visible;
+}
+a { 
+	display: none !important; 
+}
+.documentor-bar a {
+	display: block !important; 
+}
+.documentor-bar .doc-menu, .documentor-bar .dcumentor-topicons, .documentor-bar .documentor-social, .documentor-bar .doc-postedit-link, .documentor-bar .doc-noprint, .documentor-bar .wp-video, .documentor-bar video {
+	display: none !important;
+}
+.documentor-bar .doc-sec-title {
+	font-size: 24px;
+}
+.documentor-bar .doc-menu {
+	width: 0px;
+}
+.documentor-bar .doc-sec-container {
+	width: 100% !important;
+}
+footer {
+	display: none;
+}
+
+ 

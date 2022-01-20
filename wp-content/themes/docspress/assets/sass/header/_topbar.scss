@@ -1,0 +1,112 @@
+/**
+*
+* Topbar style
+*
+**/
+#thim-header-topbar {
+	height: 50px;
+	line-height: 50px;
+	&.style-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99999;
+	}
+	.search-form {
+		line-height: 50px;
+		input {
+			&.search-submit {
+				position: relative;
+				line-height: 50px;
+				width: 20px;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			&.search-field {
+				color: #999999;
+			}
+		}
+		label {
+			position: absolute;
+			top: 100%;
+			width: 300px;
+			right: 0;
+			display: block;
+			max-width: none;
+			opacity: 0;
+			visibility: hidden;
+			@include transition();
+			z-index: 99999;
+		}
+		&:hover {
+			label {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+		&:after {
+			line-height: 50px;
+			width: 20px;
+		}
+	}
+	ul, li {
+		margin-bottom: 0;
+		margin: 0;
+	}
+	li {
+		list-style: none;
+	}
+	color: #FFF;
+	a {
+		color: #FFF;
+	}
+
+	.goog-te-gadget .goog-te-combo {
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	.list-inline {
+		margin-left: -10px;
+		margin-right: -10px;
+		li {
+			padding-right: 10px;
+			padding-left: 10px;
+			float: left;
+		}
+	}
+
+	.dk-select {
+		.dk-selected {
+			padding: 0;
+			background-color: transparent;
+			border: 0;
+			color: #fff;
+			&:after,
+			&:before {
+				display: none;
+			}
+		}
+		.dk-select-options {
+			border-color: #db8d83;
+			.dk-option {
+				color: initial;
+				line-height: 40px;
+				width: 100%;
+			}
+			.dk-option-highlight {
+				color: #000;
+				background-color: #eee;
+			}
+		}
+	}
+
+	hr {
+		margin: 0;
+		background: $border-color;
+		position: relative;
+		z-index: 1;
+	}
+
+}

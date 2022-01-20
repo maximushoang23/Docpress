@@ -1,0 +1,115 @@
+/*
+ * Style sidebar blog
+ */
+
+.search-form {
+  position: relative;
+  line-height: 42px;
+  border: none;
+  &:after {
+    content: "\f002";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+  }
+
+  label {
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+  }
+  .search-field {
+    line-height: 40px;
+    background: #fff;
+    height: 42px;
+    padding: 0 60px 0 15px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #eee;
+    @include transition(all .3s ease-in-out);
+  }
+  .search-submit {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    z-index: 2;
+    background: transparent !important;
+    @include rounded(0);
+    line-height: 42px;
+    height: 42px;
+    color: transparent;
+    font-size: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.widget-area .widget {
+  position: relative;
+  .widget-title, .rsswidget {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: normal;
+    margin-top: 0;
+  }
+  &.widget_archive,
+  &.widget_categories,
+  &.widget_pages,
+  &.widget_meta,
+  &.widget_recent_comments,
+  &.widget_recent_entries,
+  &.widget_nav_menu {
+    ul li {
+      border-bottom: 1px solid $border-color;
+      .children,
+      .sub-menu {
+        padding-left: 15px;
+        li {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+      a {
+        &:before {
+          content: "\f105";
+          font-family: FontAwesome;
+          margin-right: 10px;
+          @include opacity(.5);
+        }
+      }
+    }
+  }
+
+  &.widget_recent_comments ul li a {
+    display: none;
+  }
+
+  ul {
+    margin: 0;
+    li {
+      margin: 0;
+      padding: 10px 10px 10px 0;
+      list-style: none;
+      line-height: 20px;
+      display: block;
+      a {
+        font-weight: normal;
+        font-size: 14px;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  select {
+    max-width: 100%;
+  }
+}
+

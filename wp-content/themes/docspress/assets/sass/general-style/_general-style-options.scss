@@ -1,0 +1,14 @@
+/*
+ * General style customizer options */
+
+.flexslider {
+  .flex-direction-nav a {
+    background: $thim_body_primary_color;
+    &:before {
+      color: $thim_body_primary_color;
+    }
+    &:hover {
+      background: $thim_body_primary_color;
+    }
+  }
+}

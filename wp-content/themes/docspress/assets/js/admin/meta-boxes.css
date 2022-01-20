@@ -1,0 +1,34 @@
+.group-section-lever {
+	margin: 15px 0 0 30px!important;
+	/*background: #e0e0e0;*/
+	/*width: 100%;*/
+}
+
+.group-section-lever >.rwmb-input,.group-section-lever > .rwmb-label{width: 100% !important}
+#sections .rwmb-group-wrapper .rwmb-button{
+	float: right;
+}
+#sections .rwmb-group-collapsible > .rwmb-input > .rwmb-group-clone{
+
+}
+.wrapper-content-section{
+	position: relative;
+}
+#sections .rwmb-group-collapsed > .rwmb-field{
+	display: block;
+}
+#sections .rwmb-group-collapsed > .wrapper-content-section{
+	display: none;
+}
+#sections .rwmb-group-collapsible > .rwmb-input > .rwmb-group-clone{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	background: #f7f7f7;
+}
+#sections .group-section-lever.rwmb-group-collapsible > .rwmb-input > .rwmb-group-clone{
+	background: #e0e0e0;
+}
+#sections .group-section-lever.rwmb-group-collapsible > .rwmb-input > .rwmb-group-clone{
+	border-top-color:  #c5c2c2;
+}
