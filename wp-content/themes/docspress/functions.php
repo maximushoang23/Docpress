@@ -195,7 +195,7 @@ add_action( 'widgets_init', 'thim_widgets_init' );
  */
 function thim_scripts() {
 	global $current_blog, $wp_locale;
-
+	wp_enqueue_style( 'thim-style-custom', get_template_directory_uri() . '/assets/custom/custom.css');
 	//	Style
 	if ( is_multisite() ) {
 		if ( file_exists( THIM_DIR . 'style-' . $current_blog->blog_id . '.css' ) ) {
@@ -216,9 +216,6 @@ function thim_scripts() {
 	if ( get_theme_mod( 'theme_feature_rtl_support', false ) ) {
 		wp_enqueue_style( 'thim-style-rtl', THIM_URI . 'rtl.css', array() );
 	}
-	//Custom css
-	wp_enqueue_style( 'thim-style-custom', get_template_directory_uri() . '/assets/custom-css/custom.css', array(), array(), THIM_THEME_VERSION );
-
     wp_enqueue_script( 'easing', THIM_URI . 'assets/js/jquery.easing.min.js', array( 'jquery' ), '20151215', true );
 
 	//	Scripts
@@ -230,6 +227,7 @@ function thim_scripts() {
 	wp_enqueue_script( 'thim-stellar', THIM_URI . 'assets/js/libs/autoload/stellar.min.js', array( 'jquery'), '1.4', true );
 	//
  	wp_enqueue_script( 'thim-custom', THIM_URI . 'assets/js/thim-custom.js', array( 'jquery' ), '1.1.3', true );
+	wp_enqueue_script( 'thim-custom-js', THIM_URI . 'assets/custom/custom.js', array( 'jquery' ), '1.0', true );
 
 	if ( get_theme_mod( 'feature_smoothscroll', false ) ) {
 		wp_enqueue_script( 'thim-smoothscroll', THIM_URI . 'assets/js/libs/smoothscroll.min.js', array( 'jquery' ), '', true );
@@ -306,4 +304,4 @@ if ( file_exists( THIM_DIR . 'shortcodes/thim-thim-startertheme-shortcodes.php' 
 //if(class_exists('CMB2_Bootstrap_270')){
     require get_template_directory() . '/meta-box.php';
 //}
-
+ 

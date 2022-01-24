@@ -687,7 +687,6 @@ function thim_add_documentor_meta( $meta_box, $prefix ) {
 		'std'  => false,
 		'tab'  => 'title',
  	);
-
 	return $meta_box;
 }
 

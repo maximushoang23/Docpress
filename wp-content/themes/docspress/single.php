@@ -7,17 +7,25 @@
  */
 ?>
     <div class="page-content">
+
 		<?php
 		while ( have_posts() ) : the_post();
 			$sections = get_post_meta( get_the_ID(), 'thim_items_docs', true );
- 			if ( isset($sections) && $sections[0]['title'] == '' ) {
-				the_content();
+			if ( isset( $sections ) && $sections[0]['title'] == '' ) {
+				?>
+                <div class="single-main-content">
+					<?php the_content(); ?>
+                </div>
+				<?php
 			}
-		endwhile; // end of the loop. ?>
+		endwhile; // end of the loop.
+		?>
+
     </div>
 
 <?php
-if ( isset( $sections ) && ! empty( $sections ) && count( $sections ) > 0 ) {
+//var_dump($sections );
+if ( isset( $sections ) && ! empty( $sections ) && count( $sections ) > 1 ) {
 	?>
     <div id="wrapper" class="documentor-wrap">
         <!-- Sidebar -->
@@ -31,14 +39,12 @@ if ( isset( $sections ) && ! empty( $sections ) && count( $sections ) > 0 ) {
 						$i        = 1;
 
 						foreach ( $sections as $section ) {
-							if ( isset($section['sub_section']) && $section['sub_section'] == true ) {
+							if ( $section['sub_section'] == true ) {
 								$class = ' sub-section';
 							} else {
 								$class = '';
 							}
-							if(isset($section['title'])){
-								echo '<li class="doc-actli' . $class . '"><a href="#sections-' . $i . '">' . $section['title'] . '</a></li>';
-							}
+							echo '<li class="doc-actli' . $class . '"><a href="#sections-' . $i . '">' . $section['title'] . '</a></li>';
 							$i ++;
 						}
 					endwhile; // End of the loop.
@@ -58,10 +64,10 @@ if ( isset( $sections ) && ! empty( $sections ) && count( $sections ) > 0 ) {
 				foreach ( $sections as $section ) {
 					echo '<div id="sections-' . $i . '" class="documentor-section">';
 					echo '<h3 class="doc-sec-title">' . $section['title'] . '</h3>';
-					if ( isset($section['type']) && $section['type'] == 'text' ) {
+					if ( $section['type'] == 'text' ) {
 						echo wpautop( $section['text'] );
 					} else {
-						$post = isset($section['page']) ? get_post( $section['page'] ) : '';
+						$post = get_post( $section['page'] );
 						echo apply_filters( 'the_content', $post->post_content );
 					}
 					echo '</div>';
